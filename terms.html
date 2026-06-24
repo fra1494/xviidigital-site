@@ -4,88 +4,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Termini | XVII Digital</title>
-  <meta name="description" content="Termini e condizioni del sito XVII Digital." />
+  <meta name="description" content="Termini di utilizzo del sito XVII Digital." />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="index.html" aria-label="XVII Digital home">
-      <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo" class="brand-logo" />
-    </a>
-    <nav class="top-nav" aria-label="Navigazione principale">
-      <a href="index.html#duo">Duo</a>
-      <a href="index.html#myday">MyDay</a>
-      <a href="index.html#contatti" data-i18n="navContact">Contatti</a>
-    </nav>
-    <div class="lang-switch" aria-label="Selezione lingua">
-      <button type="button" class="lang-btn active" data-lang="it">IT</button>
-      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="XVII Digital home">
+        <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo" class="brand-logo" />
+        <span class="brand-text">XVII Digital</span>
+      </a>
+      <nav class="top-nav" aria-label="Navigazione principale">
+        <a href="index.html#duo" data-i18n="navDuo">Duo</a>
+        <a href="index.html#myday" data-i18n="navMyDay">MyDay</a>
+        <a href="index.html#contatti" data-i18n="navContact">Contatti</a>
+      </nav>
+      <div class="lang-switch" aria-label="Selezione lingua">
+        <button type="button" class="lang-btn active" data-lang="it">IT</button>
+        <button type="button" class="lang-btn" data-lang="en">EN</button>
+      </div>
     </div>
   </header>
 
   <main class="policy-main">
-    <article class="policy-card card">
-      <p class="eyebrow">XVII Digital</p>
-      <h1 data-i18n="termsTitle">Termini e condizioni</h1>
-      <p><strong data-i18n="lastUpdated">Ultimo aggiornamento:</strong> 24 giugno 2026</p>
-
-      <p data-i18n="termsIntro">
-        Questo sito è la pagina ufficiale temporanea di XVII Digital e ha finalità informative sui progetti digitali in sviluppo.
+    <article class="policy-card">
+      <span class="section-kicker">XVII Digital</span>
+      <h1 data-i18n="termsTitle">Termini di utilizzo</h1>
+      <p><strong>Ultimo aggiornamento:</strong> 24 giugno 2026</p>
+      <p>
+        Questo sito è una pagina informativa ufficiale dedicata ai progetti digitali XVII Digital.
+        Le informazioni pubblicate hanno carattere generale e possono essere aggiornate nel tempo.
       </p>
-
-      <h2 data-i18n="terms1Title">1. Uso del sito</h2>
-      <p data-i18n="terms1Text">
-        I contenuti pubblicati sono forniti a scopo informativo. XVII Digital si riserva il diritto di modificare contenuti, sezioni e informazioni in qualsiasi momento.
+      <h2>Progetti in sviluppo</h2>
+      <p>
+        Duo e MyDay sono progetti attualmente in sviluppo. Funzionalità, disponibilità, contenuti e link
+        di download potranno essere modificati prima del rilascio pubblico.
       </p>
-
-      <h2 data-i18n="terms2Title">2. Progetti in sviluppo</h2>
-      <p data-i18n="terms2Text">
-        Duo e MyDay sono progetti in fase di sviluppo. Funzionalità, disponibilità, link di download e condizioni di utilizzo potranno variare prima del rilascio ufficiale.
+      <h2>Uso del sito</h2>
+      <p>
+        Il sito può essere consultato liberamente. Non è consentito utilizzare contenuti, loghi o materiali
+        presenti sul sito in modo improprio o non autorizzato.
       </p>
-
-      <h2 data-i18n="terms3Title">3. Proprietà dei contenuti</h2>
-      <p data-i18n="terms3Text">
-        Testi, nomi dei progetti, elementi grafici e contenuti presenti sul sito sono destinati alla presentazione ufficiale di XVII Digital e dei suoi progetti.
+      <h2>Contatti</h2>
+      <p>
+        Per richieste generali puoi scrivere a
+        <a href="mailto:admin@xviidigital.com">admin@xviidigital.com</a>.
       </p>
-
-      <h2 data-i18n="terms4Title">4. Contatti</h2>
-      <p data-i18n="terms4Text">
-        Per richieste o informazioni puoi contattare XVII Digital all’indirizzo admin@xviidigital.com.
-      </p>
-
       <a class="back-link" href="index.html" data-i18n="backHome">Torna alla home</a>
     </article>
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 XVII Digital. <span data-i18n="rights">Tutti i diritti riservati.</span></p>
-    <nav aria-label="Link legali">
-      <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html" data-i18n="termsLink">Termini</a>
-    </nav>
+    <div class="footer-inner">
+      <p>© 2026 XVII Digital. <span data-i18n="rights">Tutti i diritti riservati.</span></p>
+      <nav aria-label="Link legali">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html" data-i18n="termsLink">Termini</a>
+      </nav>
+    </div>
   </footer>
-
   <script src="script.js"></script>
-  <script>
-    Object.assign(translations.it, {
-      termsTitle: 'Termini e condizioni', lastUpdated: 'Ultimo aggiornamento:',
-      termsIntro: 'Questo sito è la pagina ufficiale temporanea di XVII Digital e ha finalità informative sui progetti digitali in sviluppo.',
-      terms1Title: '1. Uso del sito', terms1Text: 'I contenuti pubblicati sono forniti a scopo informativo. XVII Digital si riserva il diritto di modificare contenuti, sezioni e informazioni in qualsiasi momento.',
-      terms2Title: '2. Progetti in sviluppo', terms2Text: 'Duo e MyDay sono progetti in fase di sviluppo. Funzionalità, disponibilità, link di download e condizioni di utilizzo potranno variare prima del rilascio ufficiale.',
-      terms3Title: '3. Proprietà dei contenuti', terms3Text: 'Testi, nomi dei progetti, elementi grafici e contenuti presenti sul sito sono destinati alla presentazione ufficiale di XVII Digital e dei suoi progetti.',
-      terms4Title: '4. Contatti', terms4Text: 'Per richieste o informazioni puoi contattare XVII Digital all’indirizzo admin@xviidigital.com.',
-      backHome: 'Torna alla home'
-    });
-    Object.assign(translations.en, {
-      termsTitle: 'Terms and conditions', lastUpdated: 'Last updated:',
-      termsIntro: 'This website is the temporary official page of XVII Digital and provides information about digital projects currently in development.',
-      terms1Title: '1. Website use', terms1Text: 'The published content is provided for informational purposes. XVII Digital reserves the right to change content, sections and information at any time.',
-      terms2Title: '2. Projects in development', terms2Text: 'Duo and MyDay are projects currently in development. Features, availability, download links and terms of use may change before the official release.',
-      terms3Title: '3. Content ownership', terms3Text: 'Texts, project names, graphic elements and content on this website are intended for the official presentation of XVII Digital and its projects.',
-      terms4Title: '4. Contact', terms4Text: 'For requests or information, you can contact XVII Digital at admin@xviidigital.com.',
-      backHome: 'Back to home'
-    });
-    setLanguage(localStorage.getItem('xvii-lang') || 'it');
-  </script>
 </body>
 </html>

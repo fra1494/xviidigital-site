@@ -22,7 +22,8 @@ const translations = {
     mydayDescription: 'Il progetto è attualmente in sviluppo. L’obiettivo è creare un’esperienza semplice, moderna e naturale, centrata sui momenti della giornata e sulla scoperta di nuove persone, luoghi e abitudini.',
     contactLabel: 'Contatti', contactTitle: 'Informazioni e richieste',
     contactText: 'Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital, puoi utilizzare i contatti ufficiali indicati di seguito.',
-    generalContact: 'Contatto generale', rights: 'Tutti i diritti riservati.', termsLink: 'Termini'
+    generalContact: 'Contatto generale', rights: 'Tutti i diritti riservati.', termsLink: 'Termini',
+    privacyTitle: 'Privacy Policy', termsTitle: 'Termini di utilizzo', backHome: 'Torna alla home'
   },
   en: {
     navDuo: 'Duo', navMyDay: 'MyDay', navContact: 'Contact',
@@ -47,7 +48,8 @@ const translations = {
     mydayDescription: 'The project is currently in development. The goal is to create a simple, modern and natural experience focused on daily moments and the discovery of new people, places and habits.',
     contactLabel: 'Contact', contactTitle: 'Information and requests',
     contactText: 'For general information, collaborations or requests about XVII Digital projects, use the official contacts below.',
-    generalContact: 'General contact', rights: 'All rights reserved.', termsLink: 'Terms'
+    generalContact: 'General contact', rights: 'All rights reserved.', termsLink: 'Terms',
+    privacyTitle: 'Privacy Policy', termsTitle: 'Terms of use', backHome: 'Back to home'
   }
 };
 
