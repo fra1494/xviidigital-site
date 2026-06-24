@@ -1,62 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>XVII Digital</title>
-  <meta name="description" content="XVII Digital is an independent digital project focused on mobile apps and digital experiences." />
+  <title>XVII Digital | App, giochi e progetti digitali</title>
+  <meta name="description" content="XVII Digital è un progetto digitale indipendente dedicato allo sviluppo di applicazioni mobile, giochi e nuove esperienze interattive. Progetti principali: Duo e MyDay." />
+  <meta name="author" content="XVII Digital" />
+  <meta property="og:title" content="XVII Digital" />
+  <meta property="og:description" content="Applicazioni mobile, giochi e progetti digitali. Scopri Duo e MyDay." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo" class="logo" />
-    <p class="tagline">Mobile apps and digital experiences.</p>
-    <p class="coming">Coming soon</p>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="XVII Digital home">
+      <img src="assets/xvii-digital-logo.png" alt="Logo XVII Digital" class="brand-logo" />
+    </a>
+    <nav class="top-nav" aria-label="Navigazione principale">
+      <a href="#progetti">Progetti</a>
+      <a href="#duo">Duo</a>
+      <a href="#myday">MyDay</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
   </header>
 
   <main>
-    <section class="about">
-      <h1>XVII Digital</h1>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Mobile apps • Games • Digital experiences</p>
+        <h1>XVII Digital</h1>
+        <p class="hero-text">
+          XVII Digital, pronunciato “Seventeen Digital”, è un progetto digitale indipendente
+          dedicato alla creazione di applicazioni mobile, giochi e servizi digitali semplici,
+          curati e pensati per un utilizzo reale.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#duo">Scopri Duo</a>
+          <a class="button secondary" href="#myday">Scopri MyDay</a>
+        </div>
+        <p class="status-pill">Sito ufficiale in aggiornamento</p>
+      </div>
+    </section>
+
+    <section class="intro section-block">
+      <div class="section-heading">
+        <span>Chi siamo</span>
+        <h2>Un laboratorio digitale per nuove idee mobile</h2>
+      </div>
       <p>
-        XVII Digital, pronounced “Seventeen Digital”, is an independent digital project
-        focused on mobile applications, games and interactive experiences.
-      </p>
-      <p class="legal-note">
-        XVII Digital is currently a brand/project operated by Francesco Caputo.
+        XVII Digital nasce con l’obiettivo di sviluppare prodotti digitali moderni,
+        accessibili e scalabili. I primi progetti in sviluppo sono Duo, un gioco di parole
+        competitivo, e MyDay, un’app social pensata per raccontare la giornata attraverso
+        momenti reali.
       </p>
     </section>
 
-    <section class="projects">
-      <h2>Projects</h2>
+    <section id="progetti" class="section-block">
+      <div class="section-heading">
+        <span>Progetti</span>
+        <h2>Le applicazioni in sviluppo</h2>
+      </div>
 
-      <div class="cards">
-        <article class="card">
-          <h3>MyDay</h3>
-          <p>A social mobile app designed to share daily moments and discover real life around the world.</p>
-          <span>Coming soon</span>
+      <div class="project-grid">
+        <article class="project-card highlight" id="duo">
+          <div class="card-topline">
+            <span class="badge">Gioco mobile</span>
+            <span class="badge muted">Coming soon</span>
+          </div>
+          <h3>Duo</h3>
+          <p class="card-lead">
+            Duo è un gioco di parole competitivo pensato per sfidare amici o altri giocatori
+            in partite rapide, intelligenti e coinvolgenti.
+          </p>
+          <p>
+            L’obiettivo è semplice: creare parole valide rispettando le regole della sfida,
+            gestendo tempo, vite e punteggio. Il gioco combina velocità, vocabolario e strategia,
+            trasformando ogni turno in una piccola sfida mentale.
+          </p>
+
+          <div class="features">
+            <div>
+              <strong>Allenamento</strong>
+              <span>Modalità per esercitarsi, migliorare il vocabolario e prepararsi alle sfide.</span>
+            </div>
+            <div>
+              <strong>Sfida casuale</strong>
+              <span>Partite contro altri giocatori disponibili, con logica competitiva e punteggi.</span>
+            </div>
+            <div>
+              <strong>Sfida amico</strong>
+              <span>Possibilità di creare una partita e invitare un amico tramite stanza dedicata.</span>
+            </div>
+            <div>
+              <strong>Classifica e progressi</strong>
+              <span>Statistiche, risultati e crescita del profilo giocatore nel tempo.</span>
+            </div>
+          </div>
+
+          <div class="download-area" aria-label="Download Duo">
+            <p>Download app</p>
+            <div class="store-buttons">
+              <a class="store-button disabled" href="#" aria-disabled="true" onclick="return false;">
+                <span>Disponibile prossimamente su</span>
+                <strong>App Store</strong>
+              </a>
+              <a class="store-button disabled" href="#" aria-disabled="true" onclick="return false;">
+                <span>Disponibile prossimamente su</span>
+                <strong>Google Play</strong>
+              </a>
+            </div>
+          </div>
         </article>
 
-        <article class="card">
-          <h3>Duo</h3>
-          <p>A competitive word game experience built for challenges, learning and fun.</p>
-          <span>Coming soon</span>
+        <article class="project-card" id="myday">
+          <div class="card-topline">
+            <span class="badge">Social app</span>
+            <span class="badge muted">Coming soon</span>
+          </div>
+          <h3>MyDay</h3>
+          <p class="card-lead">
+            MyDay è un’app social in sviluppo, pensata per condividere momenti autentici
+            della propria giornata e scoprire cosa accade nel mondo in tempo reale.
+          </p>
+          <p>
+            Il progetto è attualmente in fase di sviluppo. Ulteriori informazioni, funzioni
+            definitive e link di download saranno pubblicati prima del rilascio ufficiale.
+          </p>
+
+          <div class="download-area compact" aria-label="Download MyDay">
+            <p>Download app</p>
+            <div class="store-buttons">
+              <a class="store-button disabled" href="#" aria-disabled="true" onclick="return false;">
+                <span>Coming soon on</span>
+                <strong>App Store</strong>
+              </a>
+              <a class="store-button disabled" href="#" aria-disabled="true" onclick="return false;">
+                <span>Coming soon on</span>
+                <strong>Google Play</strong>
+              </a>
+            </div>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="contact">
-      <h2>Contact</h2>
-      <p>General contact: <a href="mailto:admin@xviidigital.com">admin@xviidigital.com</a></p>
-      <p>MyDay: <a href="mailto:myday@xviidigital.com">myday@xviidigital.com</a></p>
-      <p>Duo: <a href="mailto:duo@xviidigital.com">duo@xviidigital.com</a></p>
+    <section id="contatti" class="contact section-block">
+      <div class="section-heading">
+        <span>Contatti</span>
+        <h2>Informazioni e richieste</h2>
+      </div>
+      <p>
+        Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital,
+        puoi utilizzare i contatti indicati di seguito.
+      </p>
+      <div class="contact-list">
+        <a href="mailto:admin@xviidigital.com">admin@xviidigital.com</a>
+        <a href="mailto:duo@xviidigital.com">duo@xviidigital.com</a>
+      </div>
+      <p class="small-note">
+        Le informative specifiche e i termini completi delle singole applicazioni saranno aggiornati
+        prima della pubblicazione ufficiale sugli store.
+      </p>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 XVII Digital. All rights reserved.</p>
-    <nav>
+  <footer class="site-footer">
+    <p>© 2026 XVII Digital. Tutti i diritti riservati.</p>
+    <nav aria-label="Link legali">
       <a href="privacy.html">Privacy Policy</a>
-      <a href="terms.html">Terms</a>
+      <a href="terms.html">Termini e condizioni</a>
     </nav>
   </footer>
 </body>
