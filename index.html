@@ -4,7 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>XVII Digital | App, giochi e progetti digitali</title>
-  <meta name="description" content="XVII Digital sviluppa applicazioni mobile, giochi e progetti digitali. Scopri Duo e MyDay, progetti mobile in arrivo." />
+  <meta name="description" content="XVII Digital sviluppa applicazioni mobile, giochi e progetti digitali. Scopri Duo, il gioco di parole competitivo, e MyDay, social app in arrivo." />
+  <meta name="author" content="XVII Digital" />
   <meta property="og:title" content="XVII Digital" />
   <meta property="og:description" content="Mobile apps, games and digital experiences. Duo and MyDay coming soon." />
   <meta property="og:type" content="website" />
@@ -13,28 +14,25 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="header-inner">
-      <a class="brand" href="index.html" aria-label="XVII Digital home">
-        <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo" class="brand-logo" />
-        <span class="brand-text">XVII Digital</span>
-      </a>
+    <a class="brand" href="index.html" aria-label="XVII Digital home">
+      <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo" class="brand-logo" />
+    </a>
 
-      <nav class="top-nav" aria-label="Navigazione principale">
-        <a href="#duo" data-i18n="navDuo">Duo</a>
-        <a href="#myday" data-i18n="navMyDay">MyDay</a>
-        <a href="#contatti" data-i18n="navContact">Contatti</a>
-      </nav>
+    <nav class="top-nav" aria-label="Navigazione principale">
+      <a href="#duo" data-i18n="navDuo">Duo</a>
+      <a href="#myday" data-i18n="navMyDay">MyDay</a>
+      <a href="#contatti" data-i18n="navContact">Contatti</a>
+    </nav>
 
-      <div class="lang-switch" aria-label="Selezione lingua">
-        <button type="button" class="lang-btn active" data-lang="it">IT</button>
-        <button type="button" class="lang-btn" data-lang="en">EN</button>
-      </div>
+    <div class="lang-switch" aria-label="Selezione lingua">
+      <button type="button" class="lang-btn active" data-lang="it">IT</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
     </div>
   </header>
 
   <main>
-    <section class="hero section-wrap">
-      <div class="hero-content">
+    <section class="hero">
+      <div class="hero-copy">
         <p class="eyebrow" data-i18n="heroEyebrow">Mobile apps • Giochi • Esperienze digitali</p>
         <h1>XVII Digital</h1>
         <p class="hero-text" data-i18n="heroText">
@@ -47,41 +45,39 @@
         </div>
       </div>
 
-      <div class="hero-card" aria-label="Progetti principali">
-        <div class="hero-card-top">
-          <span class="status-dot"></span>
-          <span data-i18n="officialSite">Sito ufficiale</span>
-        </div>
-        <div class="roman-mark">XVII</div>
+      <aside class="hero-panel" aria-label="Progetti principali">
+        <div class="panel-status" data-i18n="officialSite">Sito ufficiale</div>
+        <div class="panel-title">XVII</div>
         <p data-i18n="panelText">Tecnologia, creatività e prodotti digitali in sviluppo.</p>
-        <div class="hero-tags">
+        <div class="panel-grid">
           <span>Duo</span>
           <span>MyDay</span>
           <span>Android</span>
           <span>iOS</span>
         </div>
-      </div>
+      </aside>
     </section>
 
-    <section class="section-wrap intro-section">
-      <div class="section-title narrow">
-        <span class="section-kicker" data-i18n="aboutLabel">Chi siamo</span>
+    <section class="section intro-section">
+      <div class="section-heading">
+        <span data-i18n="aboutLabel">Chi siamo</span>
         <h2 data-i18n="aboutTitle">Un laboratorio digitale per nuove idee mobile</h2>
-        <p data-i18n="aboutText">
-          XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili.
-          I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app
-          pensata per condividere momenti autentici della giornata.
-        </p>
       </div>
+      <p data-i18n="aboutText">
+        XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili.
+        I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app
+        pensata per condividere momenti autentici della giornata.
+      </p>
     </section>
 
-    <section id="duo" class="section-wrap project-section">
-      <div class="project-grid project-grid-duo">
-        <article class="project-card main-project">
-          <div class="card-labels">
+    <section id="duo" class="section project-section">
+      <div class="project-layout">
+        <div class="project-main card card-featured">
+          <div class="card-header">
             <span class="badge" data-i18n="mobileGame">Gioco mobile</span>
             <span class="badge muted">Coming soon</span>
           </div>
+
           <h2>Duo</h2>
           <p class="lead" data-i18n="duoLead">
             Duo è un gioco di parole competitivo pensato per sfidare amici o altri giocatori
@@ -93,27 +89,27 @@
             L’obiettivo è creare un’esperienza semplice da capire, ma stimolante da padroneggiare.
           </p>
 
-          <div class="features-grid">
-            <div class="feature-box">
+          <div class="feature-grid">
+            <div class="feature-item">
               <strong data-i18n="duoFeature1Title">Allenamento</strong>
               <span data-i18n="duoFeature1Text">Modalità per esercitarsi, migliorare il vocabolario e prepararsi alle sfide.</span>
             </div>
-            <div class="feature-box">
+            <div class="feature-item">
               <strong data-i18n="duoFeature2Title">Sfida casuale</strong>
               <span data-i18n="duoFeature2Text">Partite rapide contro altri giocatori disponibili, con punteggio e progressi.</span>
             </div>
-            <div class="feature-box">
+            <div class="feature-item">
               <strong data-i18n="duoFeature3Title">Sfida amico</strong>
               <span data-i18n="duoFeature3Text">Creazione di una stanza dedicata per invitare un amico e giocare insieme.</span>
             </div>
-            <div class="feature-box">
+            <div class="feature-item">
               <strong data-i18n="duoFeature4Title">Classifica</strong>
               <span data-i18n="duoFeature4Text">Risultati, statistiche e crescita del profilo giocatore nel tempo.</span>
             </div>
           </div>
-        </article>
+        </div>
 
-        <aside class="project-card side-card download-card">
+        <aside class="card download-card">
           <span class="badge muted" data-i18n="downloadLabel">Download</span>
           <h3 data-i18n="duoDownloadTitle">Duo sarà disponibile prossimamente</h3>
           <p data-i18n="duoDownloadText">
@@ -133,9 +129,9 @@
       </div>
     </section>
 
-    <section id="myday" class="section-wrap project-section compact-section">
-      <div class="project-grid project-grid-myday">
-        <aside class="project-card side-card mini-card">
+    <section id="myday" class="section project-section">
+      <div class="project-layout reverse">
+        <aside class="card mini-card">
           <span class="badge muted">Coming soon</span>
           <h3 data-i18n="mydayStatusTitle">Progetto in sviluppo</h3>
           <p data-i18n="mydayStatusText">
@@ -143,8 +139,8 @@
           </p>
         </aside>
 
-        <article class="project-card main-project">
-          <div class="card-labels">
+        <div class="project-main card">
+          <div class="card-header">
             <span class="badge" data-i18n="socialApp">Social app</span>
             <span class="badge muted">Coming soon</span>
           </div>
@@ -158,13 +154,13 @@
             moderna e naturale, centrata sui momenti della giornata e sulla scoperta di nuove persone,
             luoghi e abitudini.
           </p>
-        </article>
+        </div>
       </div>
     </section>
 
-    <section id="contatti" class="section-wrap contact-section compact-section">
-      <div class="section-title center">
-        <span class="section-kicker" data-i18n="contactLabel">Contatti</span>
+    <section id="contatti" class="section contact-section">
+      <div class="section-heading centered">
+        <span data-i18n="contactLabel">Contatti</span>
         <h2 data-i18n="contactTitle">Informazioni e richieste</h2>
         <p data-i18n="contactText">
           Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital,
@@ -173,11 +169,11 @@
       </div>
 
       <div class="contact-grid">
-        <a class="contact-card" href="mailto:admin@xviidigital.com">
+        <a href="mailto:admin@xviidigital.com">
           <span data-i18n="generalContact">Contatto generale</span>
           <strong>admin@xviidigital.com</strong>
         </a>
-        <a class="contact-card" href="mailto:duo@xviidigital.com">
+        <a href="mailto:duo@xviidigital.com">
           <span>Duo</span>
           <strong>duo@xviidigital.com</strong>
         </a>
@@ -186,13 +182,11 @@
   </main>
 
   <footer class="site-footer">
-    <div class="footer-inner">
-      <p>© 2026 XVII Digital. <span data-i18n="rights">Tutti i diritti riservati.</span></p>
-      <nav aria-label="Link legali">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html" data-i18n="termsLink">Termini</a>
-      </nav>
-    </div>
+    <p>© 2026 XVII Digital. <span data-i18n="rights">Tutti i diritti riservati.</span></p>
+    <nav aria-label="Link legali">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html" data-i18n="termsLink">Termini</a>
+    </nav>
   </footer>
 
   <script src="script.js"></script>
