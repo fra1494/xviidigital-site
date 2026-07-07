@@ -3,87 +3,373 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>XVII Digital | Mobile apps, giochi, esperienze digitali</title>
   <meta name="description" content="XVII Digital: laboratorio digitale indipendente. In sviluppo: Duo, gioco di parole competitivo, e MyDay, concept social in lavorazione." />
   <meta name="theme-color" content="#050505" />
+
   <link rel="icon" href="assets/xvii-digital-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div class="aurora"></div><div class="grid-bg"></div><div class="cursor-glow"></div><div class="stars" aria-hidden="true"></div>
+  <div class="aurora"></div>
+  <div class="grid-bg"></div>
+  <div class="cursor-glow"></div>
+  <div class="stars" aria-hidden="true"></div>
+
   <header class="site-header">
-    <a class="brand" href="#home" aria-label="XVII Digital home"><img src="assets/xvii-digital-logo.png" alt="XVII Digital logo"><span>XVII Digital</span></a>
-    <button class="menu-toggle" aria-label="Apri menu"><span></span><span></span></button>
+    <a class="brand" href="#home" aria-label="XVII Digital home">
+      <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo">
+      <span>XVII Digital</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Apri menu">
+      <span></span>
+      <span></span>
+    </button>
+
     <nav class="nav">
       <a href="#about" data-i18n="nav.about">Chi siamo</a>
       <a href="#duo" data-i18n="nav.duo">Duo</a>
       <a href="#myday" data-i18n="nav.myday">MyDay</a>
       <a href="#download" data-i18n="nav.download">Download</a>
       <a href="#contact" data-i18n="nav.contact">Contatti</a>
-      <div class="langs"><button class="lang active" data-lang="it">IT</button><button class="lang" data-lang="en">EN</button></div>
+
+      <div class="langs">
+        <button class="lang active" data-lang="it">IT</button>
+        <button class="lang" data-lang="en">EN</button>
+      </div>
     </nav>
   </header>
 
   <main id="home">
+
     <section class="hero hero-centered section-pad">
       <div class="hero-stage hero-stage-main reveal">
-        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
-        <div class="logo-fade-shell"><img class="hero-logo" src="assets/xvii-digital-logo.png" alt="XVII Digital"></div>
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+
+        <div class="logo-fade-shell">
+          <img class="hero-logo" src="assets/xvii-digital-logo.png" alt="XVII Digital">
+        </div>
       </div>
+
       <div class="hero-copy hero-copy-center reveal">
-        <p class="hero-kicker" data-i18n="hero.kicker">Mobile apps • Giochi • Esperienze digitali</p>
+        <p class="hero-kicker" data-i18n="hero.kicker">
+          Mobile apps • Giochi • Esperienze digitali
+        </p>
+
         <h1 data-i18n="hero.title">XVII Digital</h1>
-        <p class="hero-text" data-i18n="hero.text">Uno spazio indipendente dove idee mobile, giochi e prodotti digitali vengono progettati con cura, prototipati e portati lentamente verso il lancio.</p>
-        <div class="hero-actions"><a class="btn primary magnetic" href="#duo" data-i18n="hero.cta1">Scopri i progetti</a><a class="btn ghost magnetic" href="#contact" data-i18n="hero.cta2">Scrivici</a></div>
+
+        <p class="hero-text" data-i18n="hero.text">
+          Uno spazio indipendente dove idee mobile, giochi e prodotti digitali vengono progettati con cura, prototipati e portati lentamente verso il lancio.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary magnetic" href="#duo" data-i18n="hero.cta1">
+            Scopri i progetti
+          </a>
+
+          <a class="btn ghost magnetic" href="#contact" data-i18n="hero.cta2">
+            Scrivici
+          </a>
+        </div>
       </div>
     </section>
 
     <section id="about" class="section-pad manifesto">
-      <div class="section-title reveal"><span data-i18n="about.kicker">Chi siamo</span><h2 data-i18n="about.title">Un laboratorio digitale per nuove idee mobile.</h2><p data-i18n="about.text">XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili. I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app pensata per condividere momenti autentici della giornata.</p></div>
+      <div class="section-title reveal">
+        <span data-i18n="about.kicker">Chi siamo</span>
+
+        <h2 data-i18n="about.title">
+          Un laboratorio digitale per nuove idee mobile.
+        </h2>
+
+        <p data-i18n="about.text">
+          XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili. I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app pensata per condividere momenti autentici della giornata.
+        </p>
+      </div>
+
       <div class="manifesto-grid">
-        <article class="tile reveal"><i>01</i><h3 data-i18n="about.a.title">Prodotti propri</h3><p data-i18n="about.a.text">Non un catalogo di servizi: il focus è creare e far crescere progetti digitali originali.</p></article>
-        <article class="tile reveal"><i>02</i><h3 data-i18n="about.b.title">Design riconoscibile</h3><p data-i18n="about.b.text">Interfacce curate, dettagli premium, animazioni fluide e una forte identità visiva.</p></article>
-        <article class="tile reveal"><i>03</i><h3 data-i18n="about.c.title">Beta e feedback</h3><p data-i18n="about.c.text">I prodotti vengono provati, migliorati e rifiniti prima di arrivare agli store ufficiali.</p></article>
+        <article class="tile reveal">
+          <i>01</i>
+          <h3 data-i18n="about.a.title">Prodotti propri</h3>
+          <p data-i18n="about.a.text">
+            Non un catalogo di servizi: il focus è creare e far crescere progetti digitali originali.
+          </p>
+        </article>
+
+        <article class="tile reveal">
+          <i>02</i>
+          <h3 data-i18n="about.b.title">Design riconoscibile</h3>
+          <p data-i18n="about.b.text">
+            Interfacce curate, dettagli premium, animazioni fluide e una forte identità visiva.
+          </p>
+        </article>
+
+        <article class="tile reveal">
+          <i>03</i>
+          <h3 data-i18n="about.c.title">Beta e feedback</h3>
+          <p data-i18n="about.c.text">
+            I prodotti vengono provati, migliorati e rifiniti prima di arrivare agli store ufficiali.
+          </p>
+        </article>
       </div>
     </section>
 
     <section id="duo" class="section-pad projects">
-      <div class="section-title center reveal"><span data-i18n="duo.kicker">Coming soon</span><h2 data-i18n="duo.title">Duo — il gioco di parole competitivo.</h2><p data-i18n="duo.intro">Sfide rapide, parole, strategia e categorie sempre diverse. Duo è pensato per chi ama competere, allenarsi e battere gli amici una partita alla volta.</p></div>
-      <div class="duo-panel reveal">
-        <div class="phone-3d"><div class="phone-top"></div><div class="duo-screen"><div class="score"><span>12</span><em>VS</em><span>09</span></div><h3>DUO</h3><p>COMING SOON</p><div class="letters"><b>D</b><b>U</b><b>O</b><b>!</b></div></div></div>
-        <div class="project-text"><span class="badge">Duo</span><h3 data-i18n="duo.panel.title">Parole, duelli e party multiplayer.</h3><p data-i18n="duo.panel.text">Duo unisce la semplicità dei giochi di parole alla tensione delle sfide in tempo reale: duelli casuali, stanze private, party fino a 4 giocatori, allenamento, classifiche, monete, aiuti, skin e modalità speciali.</p><div class="chips"><span>Duelli realtime</span><span>Party 2-4</span><span>Classifiche</span><span>Ruota categorie</span><span>Skin</span><span>Allenamento</span></div><a class="btn primary" href="#download" data-i18n="duo.cta">Disponibilità</a></div>
+      <div class="section-title center reveal">
+        <span data-i18n="duo.kicker">Coming soon</span>
+
+        <h2 data-i18n="duo.title">
+          Duo — il gioco di parole competitivo.
+        </h2>
+
+        <p data-i18n="duo.intro">
+          Sfide rapide, parole, strategia e categorie sempre diverse. Duo è pensato per chi ama competere, allenarsi e battere gli amici una partita alla volta.
+        </p>
       </div>
+
+      <div class="duo-panel reveal">
+        <div class="phone-3d">
+          <div class="phone-top"></div>
+
+          <div class="duo-screen">
+            <div class="score">
+              <span>12</span>
+              <em>VS</em>
+              <span>09</span>
+            </div>
+
+            <h3>DUO</h3>
+            <p>COMING SOON</p>
+
+            <div class="letters">
+              <b>D</b>
+              <b>U</b>
+              <b>O</b>
+              <b>!</b>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-text">
+          <span class="badge">Duo</span>
+
+          <h3 data-i18n="duo.panel.title">
+            Parole, duelli e party multiplayer.
+          </h3>
+
+          <p data-i18n="duo.panel.text">
+            Duo unisce la semplicità dei giochi di parole alla tensione delle sfide in tempo reale: duelli casuali, stanze private, party fino a 4 giocatori, allenamento, classifiche, monete, aiuti, skin e modalità speciali.
+          </p>
+
+          <div class="chips">
+            <span>Duelli realtime</span>
+            <span>Party 2-4</span>
+            <span>Classifiche</span>
+            <span>Ruota categorie</span>
+            <span>Skin</span>
+            <span>Allenamento</span>
+          </div>
+
+          <a class="btn primary" href="#download" data-i18n="duo.cta">
+            Disponibilità
+          </a>
+        </div>
+      </div>
+
       <div class="feature-grid">
-        <article class="feature-card reveal"><b>⚡</b><h3 data-i18n="f1.title">Sfide immediate</h3><p data-i18n="f1.text">Entra in partita, trova l’avversario e gioca round veloci senza attese inutili.</p></article>
-        <article class="feature-card reveal"><b>🎯</b><h3 data-i18n="f2.title">Categorie dinamiche</h3><p data-i18n="f2.text">La ruota sceglie il tema prima della sfida e rende ogni partita diversa.</p></article>
-        <article class="feature-card reveal"><b>👥</b><h3 data-i18n="f3.title">Party con amici</h3><p data-i18n="f3.text">Crea una stanza privata e invita fino a 4 giocatori per una sfida più sociale.</p></article>
-        <article class="feature-card reveal"><b>🏆</b><h3 data-i18n="f4.title">Progressione</h3><p data-i18n="f4.text">Classifiche, monete, ricompense e personalizzazioni per far crescere il tuo profilo.</p></article>
+        <article class="feature-card reveal">
+          <b>⚡</b>
+          <h3 data-i18n="f1.title">Sfide immediate</h3>
+          <p data-i18n="f1.text">
+            Entra in partita, trova l’avversario e gioca round veloci senza attese inutili.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <b>🎯</b>
+          <h3 data-i18n="f2.title">Categorie dinamiche</h3>
+          <p data-i18n="f2.text">
+            La ruota sceglie il tema prima della sfida e rende ogni partita diversa.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <b>👥</b>
+          <h3 data-i18n="f3.title">Party con amici</h3>
+          <p data-i18n="f3.text">
+            Crea una stanza privata e invita fino a 4 giocatori per una sfida più sociale.
+          </p>
+        </article>
+
+        <article class="feature-card reveal">
+          <b>🏆</b>
+          <h3 data-i18n="f4.title">Progressione</h3>
+          <p data-i18n="f4.text">
+            Classifiche, monete, ricompense e personalizzazioni per far crescere il tuo profilo.
+          </p>
+        </article>
       </div>
     </section>
 
     <section id="myday" class="section-pad myday-section">
-      <div class="section-title reveal"><span data-i18n="myday.kicker">Private concept</span><h2 data-i18n="myday.title">MyDay resta sotto il telo. Per ora.</h2><p data-i18n="myday.text">Un modo più autentico di raccontare la giornata: momenti brevi, fasce orarie, profili personali e scoperta globale. Alcuni dettagli resteranno nascosti fino al momento giusto.</p></div>
-      <div class="mystery reveal"><div class="hidden-phone"><div class="cloth"></div><span>?</span></div><div class="mystery-lines"><i></i><i></i><i></i></div></div>
+      <div class="section-title reveal">
+        <span data-i18n="myday.kicker">Private concept</span>
+
+        <h2 data-i18n="myday.title">
+          MyDay resta sotto il telo. Per ora.
+        </h2>
+
+        <p data-i18n="myday.text">
+          Un modo più autentico di raccontare la giornata: momenti brevi, fasce orarie, profili personali e scoperta globale. Alcuni dettagli resteranno nascosti fino al momento giusto.
+        </p>
+      </div>
+
+      <div class="mystery reveal">
+        <div class="hidden-phone">
+          <div class="cloth"></div>
+          <span>?</span>
+        </div>
+
+        <div class="mystery-lines">
+          <i></i>
+          <i></i>
+          <i></i>
+        </div>
+      </div>
     </section>
 
     <section id="download" class="section-pad download-section">
-      <div class="download-card reveal"><div><span class="badge" data-i18n="download.badge">Download</span><h2 data-i18n="download.title">Duo sarà disponibile prossimamente.</h2><p data-i18n="download.text">I link ufficiali per Android e iPhone saranno pubblicati appena l’app sarà disponibile sugli store.</p><div class="store-row"><a class="store disabled" href="#" aria-disabled="true"><span class="store-icon"></span><strong>App Store</strong><em>Coming soon</em></a><a class="store disabled" href="#" aria-disabled="true"><span class="store-icon android">▶</span><strong>Google Play</strong><em>Coming soon</em></a></div></div><div class="beta-box"><h3 data-i18n="beta.title">Scarica la beta</h3><p data-i18n="beta.text">Quando sarà attiva una build di test Android, il file APK verrà pubblicato qui.</p><a class="btn primary big" href="https://github.com/fra1494/xviidigital-site/releases/download/v0.1-beta/duo.apk" data-i18n="beta.cta">Android Beta APK</a>
+      <div class="download-card reveal">
+
+        <div>
+          <span class="badge" data-i18n="download.badge">Download</span>
+
+          <h2 data-i18n="download.title">
+            Duo sarà disponibile prossimamente.
+          </h2>
+
+          <p data-i18n="download.text">
+            I link ufficiali per Android e iPhone saranno pubblicati appena l’app sarà disponibile sugli store.
+          </p>
+
+          <div class="store-row">
+            <a class="store disabled" href="#" aria-disabled="true">
+              <span class="store-icon"></span>
+              <strong>App Store</strong>
+              <em>Coming soon</em>
+            </a>
+
+            <a class="store disabled" href="#" aria-disabled="true">
+              <span class="store-icon android">▶</span>
+              <strong>Google Play</strong>
+              <em>Coming soon</em>
+            </a>
+          </div>
+        </div>
+
+        <div class="beta-box">
+          <h3 data-i18n="beta.title">Scarica la beta</h3>
+
+          <p data-i18n="beta.text">
+            Prova in anteprima Duo. Scarica gratuitamente la versione Beta per Android e aiutaci a migliorare il gioco con il tuo feedback.
+          </p>
+
+          <a
+            class="btn primary big"
+            href="https://github.com/fra1494/xviidigital-site/releases/download/v0.1-beta/duo.apk"
+          >
+            🚀 Scarica Android Beta
+          </a>
+        </div>
+
+      </div>
     </section>
 
     <section class="section-pad legal-strip">
-      <div class="section-title center reveal"><span data-i18n="legal.kicker">Risorse</span><h2 data-i18n="legal.title">Privacy, termini e informazioni utili.</h2></div>
-      <div class="legal-grid"><a class="legal-card reveal" href="privacy.html"><h3>Privacy Policy</h3><p data-i18n="legal.privacy">Informazioni su dati, contatti, cookie e diritti privacy.</p></a><a class="legal-card reveal" href="terms.html"><h3>Termini</h3><p data-i18n="legal.terms">Condizioni generali di utilizzo del sito e delle eventuali beta.</p></a></div>
+      <div class="section-title center reveal">
+        <span data-i18n="legal.kicker">Risorse</span>
+
+        <h2 data-i18n="legal.title">
+          Privacy, termini e informazioni utili.
+        </h2>
+      </div>
+
+      <div class="legal-grid">
+        <a class="legal-card reveal" href="privacy.html">
+          <h3>Privacy Policy</h3>
+          <p data-i18n="legal.privacy">
+            Informazioni su dati, contatti, cookie e diritti privacy.
+          </p>
+        </a>
+
+        <a class="legal-card reveal" href="terms.html">
+          <h3>Termini</h3>
+          <p data-i18n="legal.terms">
+            Condizioni generali di utilizzo del sito e delle eventuali beta.
+          </p>
+        </a>
+      </div>
     </section>
 
     <section id="contact" class="section-pad contact">
-      <div class="contact-copy reveal"><span data-i18n="contact.kicker">Contatti</span><h2 data-i18n="contact.title">Informazioni e richieste.</h2><p data-i18n="contact.text">Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital, puoi utilizzare i contatti ufficiali indicati di seguito.</p><div class="mail-links"><a href="mailto:admin@xviidigital.com">admin@xviidigital.com</a><a href="mailto:duo@xviidigital.com">duo@xviidigital.com</a></div></div>
-      <form class="contact-form reveal" action="mailto:admin@xviidigital.com" method="post" enctype="text/plain"><input name="name" placeholder="Nome / Name" required><input name="email" type="email" placeholder="Email" required><textarea name="message" rows="6" placeholder="Messaggio / Message" required></textarea><button class="btn primary" type="submit" data-i18n="contact.cta">Invia messaggio</button></form>
+      <div class="contact-copy reveal">
+        <span data-i18n="contact.kicker">Contatti</span>
+
+        <h2 data-i18n="contact.title">
+          Informazioni e richieste.
+        </h2>
+
+        <p data-i18n="contact.text">
+          Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital, puoi utilizzare i contatti ufficiali indicati di seguito.
+        </p>
+
+        <div class="mail-links">
+          <a href="mailto:admin@xviidigital.com">admin@xviidigital.com</a>
+          <a href="mailto:duo@xviidigital.com">duo@xviidigital.com</a>
+        </div>
+      </div>
+
+      <form
+        class="contact-form reveal"
+        action="mailto:admin@xviidigital.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <input name="name" placeholder="Nome / Name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <textarea name="message" rows="6" placeholder="Messaggio / Message" required></textarea>
+
+        <button class="btn primary" type="submit" data-i18n="contact.cta">
+          Invia messaggio
+        </button>
+      </form>
     </section>
+
   </main>
-  <footer><img src="assets/xvii-digital-logo.png" alt="XVII Digital"><p>© <span id="year"></span> XVII Digital — Mobile apps • Giochi • Esperienze digitali</p><div class="footer-links"><a href="privacy.html">Privacy Policy</a><a href="terms.html">Termini</a><a href="mailto:admin@xviidigital.com">Contact</a></div></footer>
+
+  <footer>
+    <img src="assets/xvii-digital-logo.png" alt="XVII Digital">
+
+    <p>
+      © <span id="year"></span> XVII Digital — Mobile apps • Giochi • Esperienze digitali
+    </p>
+
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Termini</a>
+      <a href="mailto:admin@xviidigital.com">Contact</a>
+    </div>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
