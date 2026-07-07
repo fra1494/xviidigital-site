@@ -1,71 +1,35 @@
-const translations = {
-  it: {
-    navDuo: 'Duo', navMyDay: 'MyDay', navContact: 'Contatti',
-    heroEyebrow: 'Mobile apps • Giochi • Esperienze digitali',
-    heroText: 'Un progetto digitale indipendente dedicato alla creazione di applicazioni mobile, giochi e servizi digitali semplici, curati e pensati per un utilizzo reale.',
-    discoverDuo: 'Scopri Duo', discoverMyDay: 'Scopri MyDay', officialSite: 'Sito ufficiale',
-    panelText: 'Tecnologia, creatività e prodotti digitali in sviluppo.',
-    aboutLabel: 'Chi siamo', aboutTitle: 'Un laboratorio digitale per nuove idee mobile',
-    aboutText: 'XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili. I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app pensata per condividere momenti autentici della giornata.',
-    mobileGame: 'Gioco mobile', socialApp: 'Social app',
-    duoLead: 'Duo è un gioco di parole competitivo pensato per sfidare amici o altri giocatori in partite rapide, intelligenti e coinvolgenti.',
-    duoDescription: 'In Duo ogni turno richiede concentrazione, velocità e vocabolario: il giocatore deve inserire parole valide rispettando le regole della sfida, gestendo tempo, vite e punteggio. L’obiettivo è creare un’esperienza semplice da capire, ma stimolante da padroneggiare.',
-    duoFeature1Title: 'Allenamento', duoFeature1Text: 'Modalità per esercitarsi, migliorare il vocabolario e prepararsi alle sfide.',
-    duoFeature2Title: 'Sfida casuale', duoFeature2Text: 'Partite rapide contro altri giocatori disponibili, con punteggio e progressi.',
-    duoFeature3Title: 'Sfida amico', duoFeature3Text: 'Creazione di una stanza dedicata per invitare un amico e giocare insieme.',
-    duoFeature4Title: 'Classifica', duoFeature4Text: 'Risultati, statistiche e crescita del profilo giocatore nel tempo.',
-    downloadLabel: 'Download', duoDownloadTitle: 'Duo sarà disponibile prossimamente',
-    duoDownloadText: 'I link ufficiali per Android e iPhone saranno pubblicati appena l’app sarà disponibile sugli store.',
-    soonOn: 'Prossimamente su',
-    mydayStatusTitle: 'Progetto in sviluppo', mydayStatusText: 'Funzioni definitive, anteprime e link di download saranno pubblicati prima del rilascio ufficiale.',
-    mydayLead: 'MyDay è una social app pensata per condividere momenti autentici della propria giornata e scoprire cosa accade nel mondo attraverso contenuti reali e immediati.',
-    mydayDescription: 'Il progetto è attualmente in sviluppo. L’obiettivo è creare un’esperienza semplice, moderna e naturale, centrata sui momenti della giornata e sulla scoperta di nuove persone, luoghi e abitudini.',
-    contactLabel: 'Contatti', contactTitle: 'Informazioni e richieste',
-    contactText: 'Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital, puoi utilizzare i contatti ufficiali indicati di seguito.',
-    generalContact: 'Contatto generale', rights: 'Tutti i diritti riservati.', termsLink: 'Termini'
-  },
-  en: {
-    navDuo: 'Duo', navMyDay: 'MyDay', navContact: 'Contact',
-    heroEyebrow: 'Mobile apps • Games • Digital experiences',
-    heroText: 'An independent digital project focused on building mobile apps, games and digital services that are simple, polished and designed for real use.',
-    discoverDuo: 'Discover Duo', discoverMyDay: 'Discover MyDay', officialSite: 'Official website',
-    panelText: 'Technology, creativity and digital products in development.',
-    aboutLabel: 'About', aboutTitle: 'A digital lab for new mobile ideas',
-    aboutText: 'XVII Digital was created to build modern, accessible and scalable digital products. The first projects are Duo, a competitive word game, and MyDay, a social app designed to share authentic daily moments.',
-    mobileGame: 'Mobile game', socialApp: 'Social app',
-    duoLead: 'Duo is a competitive word game designed to challenge friends or other players in quick, smart and engaging matches.',
-    duoDescription: 'In Duo every turn requires focus, speed and vocabulary: players must enter valid words while following the match rules, managing time, lives and score. The goal is to create an experience that is easy to understand, yet challenging to master.',
-    duoFeature1Title: 'Training', duoFeature1Text: 'A mode to practice, improve vocabulary and prepare for challenges.',
-    duoFeature2Title: 'Random challenge', duoFeature2Text: 'Quick matches against available players, with score and progress tracking.',
-    duoFeature3Title: 'Friend challenge', duoFeature3Text: 'Create a dedicated room to invite a friend and play together.',
-    duoFeature4Title: 'Leaderboard', duoFeature4Text: 'Results, statistics and player profile growth over time.',
-    downloadLabel: 'Download', duoDownloadTitle: 'Duo will be available soon',
-    duoDownloadText: 'Official Android and iPhone links will be published as soon as the app is available on the stores.',
-    soonOn: 'Coming soon on',
-    mydayStatusTitle: 'Project in development', mydayStatusText: 'Final features, previews and download links will be published before the official release.',
-    mydayLead: 'MyDay is a social app designed to share authentic moments from your day and discover what is happening around the world through real, immediate content.',
-    mydayDescription: 'The project is currently in development. The goal is to create a simple, modern and natural experience focused on daily moments and the discovery of new people, places and habits.',
-    contactLabel: 'Contact', contactTitle: 'Information and requests',
-    contactText: 'For general information, collaborations or requests about XVII Digital projects, use the official contacts below.',
-    generalContact: 'General contact', rights: 'All rights reserved.', termsLink: 'Terms'
-  }
+const translations={
+ it:{
+  "nav.about":"Chi siamo","nav.duo":"Duo","nav.myday":"MyDay","nav.download":"Download","nav.contact":"Contatti",
+  "hero.kicker":"Mobile apps • Giochi • Esperienze digitali","hero.title":"XVII Digital","hero.text":"Uno spazio indipendente dove idee mobile, giochi e prodotti digitali vengono progettati con cura, prototipati e portati lentamente verso il lancio.","hero.cta1":"Scopri i progetti","hero.cta2":"Scrivici",
+  "about.kicker":"Chi siamo","about.title":"Un laboratorio digitale per nuove idee mobile.","about.text":"XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili. I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app pensata per condividere momenti autentici della giornata.",
+  "about.a.title":"Prodotti propri","about.a.text":"Non un catalogo di servizi: il focus è creare e far crescere progetti digitali originali.","about.b.title":"Design riconoscibile","about.b.text":"Interfacce curate, dettagli premium, animazioni fluide e una forte identità visiva.","about.c.title":"Beta e feedback","about.c.text":"I prodotti vengono provati, migliorati e rifiniti prima di arrivare agli store ufficiali.",
+  "duo.kicker":"Coming soon","duo.title":"Duo — il gioco di parole competitivo.","duo.intro":"Sfide rapide, parole, strategia e categorie sempre diverse. Duo è pensato per chi ama competere, allenarsi e battere gli amici una partita alla volta.","duo.panel.title":"Parole, duelli e party multiplayer.","duo.panel.text":"Duo unisce la semplicità dei giochi di parole alla tensione delle sfide in tempo reale: duelli casuali, stanze private, party fino a 4 giocatori, allenamento, classifiche, monete, aiuti, skin e modalità speciali.","duo.cta":"Disponibilità",
+  "f1.title":"Sfide immediate","f1.text":"Entra in partita, trova l’avversario e gioca round veloci senza attese inutili.","f2.title":"Categorie dinamiche","f2.text":"La ruota sceglie il tema prima della sfida e rende ogni partita diversa.","f3.title":"Party con amici","f3.text":"Crea una stanza privata e invita fino a 4 giocatori per una sfida più sociale.","f4.title":"Progressione","f4.text":"Classifiche, monete, ricompense e personalizzazioni per far crescere il tuo profilo.",
+  "myday.kicker":"Private concept","myday.title":"MyDay resta sotto il telo. Per ora.","myday.text":"Un modo più autentico di raccontare la giornata: momenti brevi, fasce orarie, profili personali e scoperta globale. Alcuni dettagli resteranno nascosti fino al momento giusto.",
+  "download.badge":"Download","download.title":"Duo sarà disponibile prossimamente.","download.text":"I link ufficiali per Android e iPhone saranno pubblicati appena l’app sarà disponibile sugli store.","beta.title":"Scarica la beta","beta.text":"Quando sarà attiva una build di test Android, il file APK verrà pubblicato qui.","beta.cta":"Android Beta APK",
+  "legal.kicker":"Risorse","legal.title":"Privacy, termini e informazioni utili.","legal.privacy":"Informazioni su dati, contatti, cookie e diritti privacy.","legal.terms":"Condizioni generali di utilizzo del sito e delle eventuali beta.",
+  "contact.kicker":"Contatti","contact.title":"Informazioni e richieste.","contact.text":"Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital, puoi utilizzare i contatti ufficiali indicati di seguito.","contact.cta":"Invia messaggio"
+ },
+ en:{
+  "nav.about":"About","nav.duo":"Duo","nav.myday":"MyDay","nav.download":"Download","nav.contact":"Contact",
+  "hero.kicker":"Mobile apps • Games • Digital experiences","hero.title":"XVII Digital","hero.text":"An independent space where mobile ideas, games and digital products are carefully designed, prototyped and slowly moved toward launch.","hero.cta1":"Explore projects","hero.cta2":"Contact us",
+  "about.kicker":"About","about.title":"A digital lab for new mobile ideas.","about.text":"XVII Digital was created to develop modern, accessible and scalable digital products. The first projects are Duo, a competitive word game, and MyDay, a social app concept designed to share authentic moments of the day.",
+  "about.a.title":"Own products","about.a.text":"Not a service catalogue: the focus is creating and growing original digital projects.","about.b.title":"Recognizable design","about.b.text":"Polished interfaces, premium details, smooth animations and a strong visual identity.","about.c.title":"Beta and feedback","about.c.text":"Products are tested, improved and refined before reaching the official stores.",
+  "duo.kicker":"Coming soon","duo.title":"Duo — the competitive word game.","duo.intro":"Fast challenges, words, strategy and always-changing categories. Duo is designed for people who love competing, training and beating friends one match at a time.","duo.panel.title":"Words, duels and multiplayer parties.","duo.panel.text":"Duo combines the simplicity of word games with the tension of real-time challenges: random duels, private rooms, parties up to 4 players, training, rankings, coins, helpers, skins and special modes.","duo.cta":"Availability",
+  "f1.title":"Instant matches","f1.text":"Jump in, find an opponent and play fast rounds without unnecessary waiting.","f2.title":"Dynamic categories","f2.text":"The wheel selects the theme before the challenge and makes every match different.","f3.title":"Party with friends","f3.text":"Create a private room and invite up to 4 players for a more social challenge.","f4.title":"Progression","f4.text":"Rankings, coins, rewards and customizations to grow your profile.",
+  "myday.kicker":"Private concept","myday.title":"MyDay stays under the sheet. For now.","myday.text":"A more authentic way to tell the story of your day: short moments, time slots, personal profiles and global discovery. Some details will stay hidden until the right moment.",
+  "download.badge":"Download","download.title":"Duo will be available soon.","download.text":"Official Android and iPhone links will be published as soon as the app is available on the stores.","beta.title":"Download beta","beta.text":"When an Android test build is active, the APK file will be published here.","beta.cta":"Android Beta APK",
+  "legal.kicker":"Resources","legal.title":"Privacy, terms and useful information.","legal.privacy":"Information about data, contacts, cookies and privacy rights.","legal.terms":"General terms for the website and any beta releases.",
+  "contact.kicker":"Contact","contact.title":"Information and requests.","contact.text":"For general information, collaborations or requests related to XVII Digital projects, you can use the official contacts listed below.","contact.cta":"Send message"
+ }
 };
-
-function setLanguage(lang) {
-  const selected = translations[lang] ? lang : 'it';
-  document.documentElement.lang = selected;
-  document.querySelectorAll('[data-i18n]').forEach((el) => {
-    const key = el.getAttribute('data-i18n');
-    if (translations[selected][key]) el.textContent = translations[selected][key];
-  });
-  document.querySelectorAll('.lang-btn').forEach((btn) => {
-    btn.classList.toggle('active', btn.dataset.lang === selected);
-  });
-  localStorage.setItem('xvii-lang', selected);
-}
-
-document.querySelectorAll('.lang-btn').forEach((btn) => {
-  btn.addEventListener('click', () => setLanguage(btn.dataset.lang));
-});
-
-setLanguage(localStorage.getItem('xvii-lang') || 'it');
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+function setLang(lang){document.documentElement.lang=lang;$$('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(translations[lang][key])el.innerHTML=translations[lang][key]});$$('.lang').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));localStorage.setItem('lang',lang)}
+$$('.lang').forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.lang)));
+$('.menu-toggle')?.addEventListener('click',()=>$('.nav').classList.toggle('open'));
+$$('.nav a').forEach(a=>a.addEventListener('click',()=>$('.nav').classList.remove('open')));
+$('#year').textContent=new Date().getFullYear();setLang(localStorage.getItem('lang')||'it');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.12});$$('.reveal').forEach(el=>io.observe(el));
+window.addEventListener('mousemove',e=>{const g=$('.cursor-glow');if(g){g.style.left=e.clientX+'px';g.style.top=e.clientY+'px'}});
+$$('.magnetic').forEach(btn=>btn.addEventListener('mousemove',e=>{const r=btn.getBoundingClientRect();btn.style.transform=`translate(${(e.clientX-r.left-r.width/2)/10}px,${(e.clientY-r.top-r.height/2)/10}px)`}));$$('.magnetic').forEach(btn=>btn.addEventListener('mouseleave',()=>btn.style.transform=''));
