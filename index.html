@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>XVII Digital | Mobile apps, giochi, esperienze digitali</title>
+  <meta name="description" content="XVII Digital: laboratorio digitale indipendente. Duo, gioco di parole competitivo, e MyDay, social app per condividere i momenti autentici della giornata." />
+  <meta name="theme-color" content="#050505" />
+
+  <link rel="icon" href="assets/xvii-digital-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="aurora"></div>
+  <div class="grid-bg"></div>
+  <div class="cursor-glow"></div>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="XVII Digital home">
+      <img src="assets/xvii-digital-logo.png" alt="XVII Digital logo">
+      <span>XVII Digital</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Apri menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav">
+      <a href="#about" data-i18n="nav.about">Chi siamo</a>
+      <a href="#duo" data-i18n="nav.duo">Duo</a>
+      <a href="#myday" data-i18n="nav.myday">MyDay</a>
+      <a href="#contact" data-i18n="nav.contact">Contatti</a>
+
+      <div class="langs">
+        <button class="lang active" data-lang="it">IT</button>
+        <button class="lang" data-lang="en">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <section class="hero hero-centered section-pad">
+      <div class="hero-stage hero-stage-main reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+
+        <div class="logo-fade-shell">
+          <img class="hero-logo" src="assets/xvii-digital-logo.png" alt="XVII Digital">
+        </div>
+      </div>
+
+      <div class="hero-copy hero-copy-center reveal">
+        <p class="hero-kicker" data-i18n="hero.kicker">
+          Mobile apps • Giochi • Esperienze digitali
+        </p>
+
+        <h1 data-i18n="hero.title">XVII Digital</h1>
+
+        <p class="hero-text" data-i18n="hero.text">
+          Uno spazio indipendente dove idee mobile, giochi e prodotti digitali vengono progettati con cura, prototipati e portati lentamente verso il lancio.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary magnetic" href="#duo" data-i18n="hero.cta1">
+            Scopri i progetti
+          </a>
+
+          <a class="btn ghost magnetic" href="#contact" data-i18n="hero.cta2">
+            Scrivici
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-pad manifesto">
+      <div class="section-title reveal">
+        <span data-i18n="about.kicker">Chi siamo</span>
+
+        <h2 data-i18n="about.title">
+          Un laboratorio digitale per nuove idee mobile.
+        </h2>
+
+        <p data-i18n="about.text">
+          XVII Digital nasce per sviluppare prodotti digitali moderni, accessibili e scalabili. I primi progetti sono Duo, un gioco di parole competitivo, e MyDay, una social app pensata per condividere momenti autentici della giornata.
+        </p>
+      </div>
+
+      <div class="manifesto-grid">
+        <article class="tile reveal">
+          <i>01</i>
+          <h3 data-i18n="about.a.title">Prodotti propri</h3>
+          <p data-i18n="about.a.text">
+            Non un catalogo di servizi: il focus è creare e far crescere progetti digitali originali.
+          </p>
+        </article>
+
+        <article class="tile reveal">
+          <i>02</i>
+          <h3 data-i18n="about.b.title">Design riconoscibile</h3>
+          <p data-i18n="about.b.text">
+            Interfacce curate, dettagli premium, animazioni fluide e una forte identità visiva.
+          </p>
+        </article>
+
+        <article class="tile reveal">
+          <i>03</i>
+          <h3 data-i18n="about.c.title">Beta e feedback</h3>
+          <p data-i18n="about.c.text">
+            I prodotti vengono provati, migliorati e rifiniti prima di arrivare agli store ufficiali.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="duo" class="section-pad duo-section duo-modern-section">
+      <div class="section-title reveal">
+        <span data-i18n="duo.kicker">Word game • Beta Android</span>
+
+        <h2 data-i18n="duo.title">
+          Duo — il gioco di parole competitivo.
+        </h2>
+
+        <p data-i18n="duo.intro">
+          Sfide rapide, parole, strategia e categorie sempre diverse. Duo è pensato per chi ama competere, allenarsi e sfidare amici e avversari una partita alla volta.
+        </p>
+
+        <div class="myday-highlights" aria-label="Funzionalità principali Duo">
+          <span data-i18n="duo.feature1">⚡ Duelli realtime</span>
+          <span data-i18n="duo.feature2">👥 Party da 2 a 4 giocatori</span>
+          <span data-i18n="duo.feature3">🎯 Categorie dinamiche</span>
+          <span data-i18n="duo.feature4">🏆 Classifiche e progressione</span>
+        </div>
+
+        <div class="myday-store-status" aria-label="Disponibilità Duo">
+          <div class="store disabled" aria-disabled="true">
+            <span class="store-icon"></span>
+            <strong>App Store</strong>
+            <em data-i18n="duo.ios">Coming soon</em>
+          </div>
+          <a class="store" href="https://play.google.com/apps/testing/com.duogame.app" target="_blank" rel="noopener noreferrer">
+            <span class="store-icon android">▶</span>
+            <strong>Google Play</strong>
+            <em data-i18n="duo.android">Beta tester aperta</em>
+          </a>
+        </div>
+
+        <div class="beta-access" aria-label="Accesso beta Android Duo">
+          <span class="beta-access-label" data-i18n="duo.beta.label">Come partecipare alla beta Android</span>
+          <p class="beta-access-note" data-i18n="duo.beta.text">Prima entra nel gruppo dei tester, poi apri Google Play e aderisci al programma di test.</p>
+          <div class="beta-access-actions">
+            <a class="btn ghost" href="https://groups.google.com/g/duoapp-beta-testers" target="_blank" rel="noopener noreferrer" data-i18n="duo.beta.group">
+              👥 1. Iscriviti al gruppo Beta
+            </a>
+            <a class="btn primary" href="https://play.google.com/apps/testing/com.duogame.app" target="_blank" rel="noopener noreferrer" data-i18n="duo.beta.play">
+              ▶ 2. Partecipa al test su Google Play
+            </a>
+          </div>
+        </div>
+
+        <div class="duo-legal-links" aria-label="Duo legal and support links">
+          <a href="duo/privacy/">Privacy</a>
+          <a href="duo/terms/">Termini</a>
+          <a href="duo/support/">Supporto</a>
+          <a href="duo/account-deletion/">Elimina account</a>
+        </div>
+      </div>
+
+      <div class="duo-showcase reveal" aria-label="Anteprima Duo">
+        <div class="duo-orbit duo-orbit-a"></div>
+        <div class="duo-orbit duo-orbit-b"></div>
+        <div class="duo-modern-phone">
+          <div class="duo-modern-screen">
+            <div class="duo-modern-head"><strong>DUO</strong><span>LIVE</span></div>
+            <div class="duo-scoreboard"><b>12</b><em>VS</em><b>09</b></div>
+            <div class="duo-category"><small>CATEGORIA</small><b>TECNOLOGIA</b></div>
+            <div class="duo-word-row"><span>D</span><span>U</span><span>O</span><span>!</span></div>
+            <div class="duo-player-row"><div><small>YOU</small><b>Francesco</b></div><div><small>RIVAL</small><b>Alex</b></div></div>
+            <div class="duo-modern-nav"><span>⌂</span><span>◎</span><span>⚔</span><span>🏆</span></div>
+          </div>
+        </div>
+        <div class="duo-floating-card duo-card-one"><small>MATCH</small><b>Real-time duels</b></div>
+        <div class="duo-floating-card duo-card-two"><small>PARTY</small><b>Up to 4 players</b></div>
+      </div>
+    </section>
+
+    <section id="myday" class="section-pad myday-section">
+      <div class="section-title reveal">
+        <span data-i18n="myday.kicker">Social app • Beta Android</span>
+
+        <h2 data-i18n="myday.title">
+          MyDay — racconta la tua giornata, un momento alla volta.
+        </h2>
+
+        <p data-i18n="myday.text">
+          MyDay è una social app costruita attorno alla giornata reale: condividi brevi Moments durante mattina, pomeriggio, sera e notte, scopri cosa succede nel mondo e segui le persone che vuoi avere nel tuo percorso quotidiano.
+        </p>
+
+        <div class="myday-highlights" aria-label="Funzionalità principali MyDay">
+          <span data-i18n="myday.feature1">☀️ 4 momenti della giornata</span>
+          <span data-i18n="myday.feature2">🎥 Moments brevi e autentici</span>
+          <span data-i18n="myday.feature3">🌍 Discover & World</span>
+          <span data-i18n="myday.feature4">👤 Profili e giornate recenti</span>
+        </div>
+
+        <div class="myday-store-status" aria-label="Disponibilità MyDay">
+          <div class="store disabled" aria-disabled="true">
+            <span class="store-icon"></span>
+            <strong>App Store</strong>
+            <em data-i18n="myday.ios">Coming soon</em>
+          </div>
+          <a class="store" href="https://play.google.com/apps/testing/com.appmyday.app" target="_blank" rel="noopener noreferrer">
+            <span class="store-icon android">▶</span>
+            <strong>Google Play</strong>
+            <em data-i18n="myday.android">Beta tester aperta</em>
+          </a>
+        </div>
+
+        <div class="beta-access" aria-label="Accesso beta Android MyDay">
+          <span class="beta-access-label" data-i18n="myday.beta.label">Come partecipare alla beta Android</span>
+          <p class="beta-access-note" data-i18n="myday.beta.text">Prima entra nel gruppo dei tester, poi apri Google Play e aderisci al programma di test.</p>
+          <div class="beta-access-actions">
+            <a class="btn ghost" href="https://groups.google.com/g/myday-beta-testers" target="_blank" rel="noopener noreferrer" data-i18n="myday.beta.group">
+              👥 1. Iscriviti al gruppo Beta
+            </a>
+            <a class="btn primary" href="https://play.google.com/apps/testing/com.appmyday.app" target="_blank" rel="noopener noreferrer" data-i18n="myday.beta.play">
+              ▶ 2. Partecipa al test su Google Play
+            </a>
+          </div>
+        </div>
+
+        <div class="duo-legal-links myday-legal-links" aria-label="MyDay legal and support links">
+          <a href="myday/privacy/">Privacy</a>
+          <a href="myday/terms/">Termini</a>
+          <a href="myday/support/">Supporto</a>
+          <a href="myday/account-deletion/">Elimina account</a>
+        </div>
+      </div>
+
+      <div class="myday-showcase reveal" aria-label="Anteprima MyDay">
+        <div class="myday-orbit myday-orbit-a"></div>
+        <div class="myday-orbit myday-orbit-b"></div>
+        <div class="myday-phone">
+          <div class="myday-phone-screen">
+            <div class="myday-phone-head">
+              <strong>MyDay</strong>
+              <span>Today</span>
+            </div>
+            <div class="myday-story myday-story-main">
+              <small>MORNING</small>
+              <b>Good morning ☀️</b>
+              <span>08:42 • Rome</span>
+            </div>
+            <div class="myday-timebar">
+              <i class="active"></i><i class="active"></i><i></i><i></i>
+            </div>
+            <div class="myday-mini-grid">
+              <div><small>AFTERNOON</small><b>Lunch break</b></div>
+              <div><small>DISCOVER</small><b>See the world</b></div>
+            </div>
+            <div class="myday-phone-nav"><span>⌂</span><span>◎</span><span>＋</span><span>⌖</span><span>○</span></div>
+          </div>
+        </div>
+        <div class="myday-floating-card card-one"><small>YOUR DAY</small><b>4 time slots</b></div>
+        <div class="myday-floating-card card-two"><small>WORLD</small><b>Moments everywhere</b></div>
+      </div>
+    </section>
+
+    <section class="section-pad legal-strip">
+      <div class="section-title center reveal">
+        <span data-i18n="legal.kicker">Risorse</span>
+
+        <h2 data-i18n="legal.title">
+          Privacy, termini e informazioni utili.
+        </h2>
+      </div>
+
+      <div class="legal-grid">
+        <a class="legal-card reveal" href="privacy.html">
+          <h3>Privacy Policy</h3>
+          <p data-i18n="legal.privacy">
+            Informazioni su dati, contatti, cookie e diritti privacy.
+          </p>
+        </a>
+
+        <a class="legal-card reveal" href="terms.html">
+          <h3>Termini</h3>
+          <p data-i18n="legal.terms">
+            Condizioni generali di utilizzo del sito e delle eventuali beta.
+          </p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="section-pad contact">
+      <div class="contact-copy reveal">
+        <span data-i18n="contact.kicker">Contatti</span>
+
+        <h2 data-i18n="contact.title">
+          Informazioni e richieste.
+        </h2>
+
+        <p data-i18n="contact.text">
+          Per informazioni generali, collaborazioni o richieste relative ai progetti XVII Digital, puoi utilizzare i contatti ufficiali indicati di seguito.
+        </p>
+
+        <div class="mail-links">
+          <a href="mailto:admin@xviidigital.com">admin@xviidigital.com</a>
+        </div>
+      </div>
+
+      <form
+        class="contact-form reveal"
+        action="mailto:admin@xviidigital.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <input name="name" placeholder="Nome / Name" required>
+        <input name="email" type="email" placeholder="Email" required>
+        <textarea name="message" rows="6" placeholder="Messaggio / Message" required></textarea>
+
+        <button class="btn primary" type="submit" data-i18n="contact.cta">
+          Invia messaggio
+        </button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <img src="assets/xvii-digital-logo.png" alt="XVII Digital">
+
+    <p>
+      © <span id="year"></span> XVII Digital — Mobile apps • Giochi • Esperienze digitali
+    </p>
+
+    <div class="footer-links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Termini</a>
+      <a href="mailto:admin@xviidigital.com">Contact</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
