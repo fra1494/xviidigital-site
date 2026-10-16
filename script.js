@@ -129,7 +129,7 @@ $('.contact-form')?.addEventListener('submit',e=>{
  e.preventDefault();const form=new FormData(e.currentTarget);const en=document.documentElement.lang==='en';
  const subject=encodeURIComponent(en?'XVII Digital — project idea':'XVII Digital — nuova idea');
  const body=encodeURIComponent(`${en?'Name':'Nome'}: ${form.get('name')}\nEmail: ${form.get('email')}\n\n${form.get('message')}`);
- window.location.href=`mailto:admin@xviidigital.com?subject=${subject}&body=${body}`;
+ window.location.href=`mailto:info@xviidigital.com?subject=${subject}&body=${body}`;
 });
 // Native dialog: keyboard navigation, Escape, focus restoration and tap-to-enlarge.
 const viewer=$('.image-viewer');let currentShots=[],currentShot=0,viewerTrigger=null;
