@@ -46,3 +46,10 @@ Le immagini sono state recuperate dalle schede pubbliche Google Play di MyDay (`
 ### Contatti
 
 Il modulo apre il programma di posta del visitatore con il messaggio compilato. Non invia email da un server. L’indirizzo diretto è `admin@xviidigital.com`.
+
+
+## Versione 3
+
+Font Source Sans 3 incluso localmente e nuovi pulsanti su tutte le pagine. Homepage con Le nostre idee, anteprima di Skillo e logo fornito, presentazione del progetto indipendente e software desktop Windows, contatto Accendi la tua idea. Gallerie animate MyDay e DUO mantenute.
+
+Prima della pubblicazione leggere PRIMA-DI-PUBBLICARE.txt: la privacy del sito richiede identità del titolare e verifica del servizio di posta. Nessuna certificazione di conformità legale è implicita nella consegna del progetto.
