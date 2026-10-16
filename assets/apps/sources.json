@@ -1,0 +1,50 @@
+[
+  {
+    "product": "duo",
+    "file": "assets/apps/duo-icon.png",
+    "source": "https://play-lh.googleusercontent.com/Cz3TVLVoiNl6RMwI4thuKKIkR1mDfRXVxpM5rU5NC7MgFv-vLKMHxAqmBtb-9JQW07GS_ZbTcV_Wl0EGn3yOVw=w720",
+    "kind": "icon"
+  },
+  {
+    "product": "duo",
+    "file": "assets/apps/duo-1.png",
+    "source": "https://play-lh.googleusercontent.com/1ud1aJxGtJ_75B8Isu6daIdIoWCJThpJOK7BK8_mdFSS0fY94nDWUA2_fqUyUVEGH_F_7RCujjSdu-4emEVgEg=w720",
+    "kind": "1"
+  },
+  {
+    "product": "duo",
+    "file": "assets/apps/duo-2.png",
+    "source": "https://play-lh.googleusercontent.com/QpXhBIBQUqKmBinhQE-_M-IR3C4ymc9CtBNsTj3YZgPoYUONiW06WUqn0G6fhFSYl6RE5G4MSSMmf4JdBYfMcQ=w720",
+    "kind": "2"
+  },
+  {
+    "product": "duo",
+    "file": "assets/apps/duo-3.png",
+    "source": "https://play-lh.googleusercontent.com/r0VZdOZ5yXbMd51ga-TX2q_8BSakdCVYlEAHpSltxC3qxkjLSxW5i9sfLyGtGTzzyhe_6ue8_UzH-FQ6Mps2=w720",
+    "kind": "3"
+  },
+  {
+    "product": "myday",
+    "file": "assets/apps/myday-icon.png",
+    "source": "https://play-lh.googleusercontent.com/w815Mmna9WatXnZO7jbReGMYtfVBBXgJ93ka09ivQjQMRa7zF7D38mmcV74rzwrzOPHxxZaYPxOFWziyqGzb4lw=w720",
+    "kind": "icon"
+  },
+  {
+    "product": "myday",
+    "file": "assets/apps/myday-1.png",
+    "source": "https://play-lh.googleusercontent.com/4XPwBdSZcuk8QifoVLLyPk1ApNKD5hruZuFIuAZTH9Ep7bkcUpk6dCXgo1OURroY7NKPWwl2D2408SE8ImeGiLw=w720",
+    "kind": "1"
+  },
+  {
+    "product": "myday",
+    "file": "assets/apps/myday-2.png",
+    "source": "https://play-lh.googleusercontent.com/cmKRbXfaOGTLV5RZ_hRsmpmfOdGIYhVUnaJRP1RcDApQqKJTlloZbwJH5nizfBtpda3gEO4aOTBmWCWy43DBk48=w720",
+    "kind": "2"
+  },
+  {
+    "product": "myday",
+    "file": "assets/apps/myday-3.png",
+    "source": "https://play-lh.googleusercontent.com/s0GT5CuD8TM2q7-kLyNjjlYfVJld4H2dK-XWVmu9jfNTxa6Ti4eW6Ni76hsysl8oRf72OXSnQzb_w00cHd8e0A=w720",
+    "kind": "3"
+  }
+]
