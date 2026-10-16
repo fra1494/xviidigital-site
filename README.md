@@ -27,3 +27,22 @@ Il file `CNAME` mantiene il dominio personalizzato configurato nel progetto. Non
 - `myday/` e `duo/`: pagine dei singoli prodotti e informazioni legali
 - `privacy.html`, `terms.html`: informazioni generali del sito
 - `CNAME`: dominio personalizzato
+
+
+## Versione 2 — nuova direzione visiva
+
+- Marchio vettoriale trasparente in `assets/xvii-wordmark.svg`, ricostruito dal riferimento.
+- Sfondo animato con particelle, orbite luminose e luce al movimento del mouse.
+- Pulsanti magnetici e gallerie con prospettiva interattiva.
+- Icone e screenshot ufficiali delle schede Google Play, inclusi localmente in `assets/apps/`.
+- Anteprime ingrandibili con frecce, tastiera ed Esc.
+- Preferenza di movimento ridotto rispettata; animazione delle particelle sospesa quando non visibile.
+- Collegamenti e stile delle pagine informative aggiornati.
+
+### Immagini delle app
+
+Le immagini sono state recuperate dalle schede pubbliche Google Play di MyDay (`com.appmyday.app`) e DUO (`com.duogame.app`). Le fonti di ciascun file sono elencate in `assets/apps/sources.json`. Il sito utilizza le copie locali incluse nel progetto.
+
+### Contatti
+
+Il modulo apre il programma di posta del visitatore con il messaggio compilato. Non invia email da un server. L’indirizzo diretto è `admin@xviidigital.com`.
